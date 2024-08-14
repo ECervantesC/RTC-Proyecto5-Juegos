@@ -1,0 +1,44 @@
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.cardDiv > h3 {
+  color: #d9c37b;
+  font-size: 58px;
+}
+.cardDiv > img {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  .cardDiv > h3 {
+    font-size: 34px;
+  }
+  .cardDiv {
+    gap: 20px;
+  }
+  .cardDiv > img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  .cardDiv > h3 {
+    font-size: 42px;
+  }
+  .cardDiv {
+    gap: 20px;
+  }
+  .cardDiv > img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+  .cardDiv > h3 {
+    font-size: 50px;
+  }
+}

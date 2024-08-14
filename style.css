@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --backgroung-header-footer-color: #2b024a;
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #4b1a72;
+  --background-terciary-color: #e4cff5;
+  /* --background-quaternary-color: #e7e7e7; */
+  --font-primary-color: #4b1a72;
+  --font-secondary-color: #ffffff;
+  --font-terciary-color: #e371ff;
+  --font-quaternary-color: #997ab1;
+  --font-size-xxl: 96px;
+  --font-size-xl: 64px;
+  --font-size-l: 48px;
+  --font-size-m: 40px;
+  --font-size-s: 24px;
+  --font-size-xs: 20px;
+  --font-size-xxs: 16px;
+  --font-line-heigth-xxl: 116.18px;
+  --font-line-heigth-xl: 77.45px;
+  --font-line-heigth-l: 58.09px;
+  --font-line-heigth-m: 48.41px;
+  --font-line-heigth-s: 29.05px;
+  --font-line-heigth-xs: 24.2px;
+  --font-line-heigth-xxs: 19.36px;
+  --font-weight-xxl: 900;
+  --font-weight-xl: 800;
+  --font-weight-l: 700;
+  --font-weight-m: 600;
+  --font-weight-s: 500;
+  --font-weight-xs: 400;
+  --border-radius-photo: 232px;
+  /* --border-radius-xl: 60px; */
+  --border-radius-l: 30px;
+  --border-radius-m: 20px;
+  --border-radius-s: 10px;
+  /* --border-color: #dddddd; */
+  --padding-xxl: 60px;
+  --padding-xl: 40px;
+  --padding-l: 30px;
+  --padding-m: 20px;
+  --padding-s: 10px;
+  --padding-xs: 5px;
+  --margin-xl: 40px;
+  --margin-l: 30px;
+  --margin-m: 20px;
+  --margin-s: 10px;
+  --margin-xs: 5px;
+  --gap-xxl: 60px;
+  --gap-xl: 40px;
+  --gap-l: 30px;
+  --gap-m: 20px;
+  --gap-s: 10px;
+  --gap-xs: 5px;
+  --form-border-color: #4b1a72;
+  --form-background-color: #ffffff;
+  --button-background-color: #4b1a72;
+  --button-font-color: #ffffff;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: #806b00;
+  background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

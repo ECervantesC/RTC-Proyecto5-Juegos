@@ -1,0 +1,96 @@
+#userDiv {
+  width: 50svw;
+  height: 75svh;
+  background-color: #d9c37b;
+  border: 1px solid #998500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#userDiv > h1 {
+  color: #4e3e00;
+  font-size: 64px;
+  padding: 20px;
+  text-align: center;
+  margin: 8%;
+  margin-bottom: 0;
+}
+#userDiv > h2 {
+  color: #4e3e00;
+  font-size: 56px;
+  text-align: center;
+  margin: 10%;
+  margin-bottom: 0;
+}
+#userDiv > input {
+  background-color: #fff8e1;
+  color: #4e3e00;
+  font-size: 56px;
+  border: solid 2px #998500;
+  width: 50%;
+  height: 12%;
+  margin: 5%;
+}
+#userDiv > button {
+  background-color: #fff8e1;
+  color: #4e3e00;
+  font-size: 56px;
+  border: solid 2px #998500;
+  width: 50%;
+  height: 15%;
+  margin: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  #userDiv {
+    width: 80svw;
+    height: 60svh;
+  }
+  #userDiv > h1 {
+    font-size: 40px;
+  }
+  #userDiv > h2 {
+    font-size: 32px;
+  }
+  #userDiv > input {
+    font-size: 32px;
+    width: 75%;
+  }
+  #userDiv > button {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  #userDiv {
+    width: 80svw;
+    /* height: 75svh; */
+  }
+  #userDiv > h1 {
+    font-size: 48px;
+  }
+  #userDiv > h2 {
+    font-size: 40px;
+  }
+  #userDiv > input {
+    font-size: 40px;
+  }
+  #userDiv > button {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+  #userDiv > h1 {
+    font-size: 56px;
+  }
+  #userDiv > h2 {
+    font-size: 48px;
+  }
+  #userDiv > input {
+    font-size: 48px;
+  }
+  #userDiv > button {
+    font-size: 48px;
+  }
+}
